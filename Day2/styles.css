@@ -1,0 +1,98 @@
+/* .box1 {
+  color: red;
+}
+
+div.box2 {
+  color: blue;
+} */
+
+/* .box1,
+.h1,
+.h2,
+.h3 {
+  color: red;
+} */
+
+/* div,
+h5 {
+  color: blue;
+} */
+
+/* div p {
+  color: blue;
+} */
+
+/* .content-1 > p {
+  color: blue;
+} */
+/* 
+div + p {
+  color: blue;
+}
+
+.content4 + p {
+  color: red;
+} */
+
+/* div ~ p {
+  color: red;
+} */
+
+/* :root {
+  --color-base: red;
+}
+
+.content-1 {
+  color: var(--color-base);
+}
+
+.content-2 {
+  color: var(--color-base);
+}
+
+.content-3 {
+  color: var(--color-base);
+} */
+
+/* .content-1 {
+  width: 80%;
+  height: 200px;
+  background-color: blue;
+}
+
+.children {
+  width: 50%;
+  height: 200px;
+  background-color: red;
+} */
+
+/* .content {
+  font-size: 2em;
+} */
+
+/* .box {
+  width: 50%;
+  height: 200px;
+  background-color: blue;
+}
+
+.box:active {
+  background-color: red;
+  height: 100px;
+} */
+
+/* li:first-child {
+  color: red;
+}
+
+li:last-child {
+  color: red;
+}
+
+.children:first-child {
+  color: red;
+}
+
+.children:last-child {
+  color: red;
+} */

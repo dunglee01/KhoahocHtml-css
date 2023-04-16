@@ -1,0 +1,64 @@
+Bài 1 : 
+``` 
+<h2 class="title">Tiêu đề 1</h2>
+
+<div class="post-item">
+    <h2 class="title">Tiêu đề 2</h2>
+    <h2>Tiêu đề 3</h2>
+</div>
+```
+Hãy CSS cho Tiêu đề 2 có màu đỏ và font-size 28px. (Hãy Làm theo nhiều cách để có thể css được cho tiêu đề 2)
+
+Bài 2: 
+```
+<style>
+    h1#heading {
+        color: red;
+    }
+</style>
+
+<h1 id="heading" class="title-group">
+    Học như thế nào là phù hợp?
+</h1>
+```
+Cho trước thẻ tiêu đề được CSS màu đỏ, hãy vận dụng kiến thức đã học về độ ưu tiên trong CSS để ghi đè cho thẻ tiêu đề thành màu #333;( thực hành bằng nhiều cách)
+
+Bài 3: 
+<h1 id="heading">Thực hành sử dụng hàm var() trong CSS</h1>
+<p class="desc">Hàm var() các bạn đã được làm quen từ bài đặt biến trong CSS đó ^^</p>
+/////////
+:root {
+    --heading-color: #333333;
+    --text-color: #404040;
+}
+
+CSS cho thẻ h1 có màu được lấy từ biến --heading-color
+CSS cho thẻ p có màu được lấy từ biến --text-color
+
+Bài 4: 
+<div class="container-box">
+  <div class="container-child-box"></div>
+</div>
+
+Cho container-box có width = 100%; height= 300px, background = red
+container-child-box có width = 50%; height = 300px, background = red
+Hãy nhìn vào đề bài dưới đây và thực hành cho class "container-child-box" khi hover vào sẽ ra màu xanh
+
+Bài 5 
+Thực hành xây dụng giao diện
+- yêu cầu : 
+- tạo 1 trang web có Tiêu đề là "Học lập trình tại nhà"
+- Có 3 hình ảnh minh hoạ , mặc định sẽ là ảnh 1 , khi hover sẽ hiện ảnh 2 , khi giữ click thì sẽ hiện ảnh 3 (sử dụng thuộc tính background-image để có thể cho ảnh vào)
+- có 1 title là "Khoá học"
+- có 1 danh sách các khoá học bao gồm 
+        - HTML 
+        - CSS
+        - PHP
+        - Javascript 
+        - Ruby 
+- khi hover vào các item của danh sách khoá học sẽ có màu xanh , 
+- Tuy nhiên tôi muốn khi hover vào HTML trong danh sách sẽ có màu đỏ
+- Hover vào Ruby trong danh sách tôi có màu vàng
+- khi click vào sẽ redirect sang trang bất kì (sử dụng kết hợp list trong html + thẻ a để redirect)
+- đặt biến màu xanh vào dùng chung để có thể tái sử dụng lại ở nhiều nơi
+- font size sử dụng rem 
