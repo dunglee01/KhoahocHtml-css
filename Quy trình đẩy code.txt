@@ -1,3 +1,17 @@
-1 - lên trang chủ git dowload git và cài đặt 
-2 - tạo đăng nhập github
-3 - 
+ - lên trang chủ git dowload git và cài đặt 
+ - tạo đăng nhập github
+ - tạo ssh key và thêm vao github
+ cac cau lenh hay su dung 
+ - git init (khoi tao git tren may tinh local cua ban)
+ - copy ssh repository va su dung cau lenh git remote add <ten server (dat tuy theo y minh)> <ssh link repository>
+ - git remote -v (kiem tra xem da co remote server hay chua)
+ - xem code chinh dang de o nhanh nao de pull code ve (nhu o trong source code nay thi la nhanh master)
+ - git pull <ten server> master 
+ - khi pull code ve xog de thu hanh code ban se phai tao ra nhanh moi va code nhung su thay doi tren nhanh moi
+ - git checkout -b 'ten nhanh'
+ - thuc hanh code 
+ - git add . (add nhung su thay doi)
+ - git commit -m 'comment' (dong goi code , va dat ten cho file dong goi)
+ - git push <ten server> <ten nhanh>
+ - vao git hub an vao pull request tao pull request merge vao nhanh master 
+ - xem video nhe
