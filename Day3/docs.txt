@@ -1,0 +1,17 @@
+  Modal css 
+
+1: Thuộc tính padding (Lớp đệm)
+(vùng đệm nằm giữa đường viền của phần tử với nội dung của phần tử đó )
+2: Thuộc tính border (đường viền )
+3: Thuộc tính margin (Khoảng cách lề )
+(phần lề nằm giữa đường viền của phần tử với các phần tử xung quanh)
+4: Thuộc tính box-sizing
+-box-sizing là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính width và height đã được thiết lập bên trong. Hay nói cách khác, là bạn sẽ muốn thuộc tính width và height là kích thước đã bao gồm border và padding
+5: background-image
+6: position CSS 
+- relative 
+- absolute 
+7: flex css
+- flex-direction: column;
+- justify-content: center;
+- align-items: center;

@@ -1,0 +1,4 @@
+Ôn tập Flex box:  https://codepen.io/enxaneta/full/adLPwv/
+1: thực hành cắt css theo trang web sau 
+https://dantri.com.vn/
+- có ảnh minh hoạ ở cùng thư mục nha
