@@ -1,0 +1,79 @@
+/* Bài 1 */
+/* .post-item .title {
+    color: red;
+    font-size: 28px;
+} */
+/* div.post-item .title {
+    color: red;
+    font-size: 28px;
+    
+} */
+/* bài 2 */
+/* .title-group {
+    color:#333;
+} */
+/* Bài 3 */
+/* :root {
+    --heading-color: #333333;
+    --text-color: #404040;
+}
+#heading {
+    color: var(--heading-color);
+}
+.desc {
+    color: var(--text-color);
+} */
+/* Bài 4 */
+/* .container-box {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+.container-child-box {
+    width: 50%;
+    height: 300px;
+    background-color: red;
+}
+.container-child-box:hover {
+    background-color: blue; */
+/* } */
+/* Bài 5 */
+
+:root {
+    --text-color: blue;
+    font-size: 2rem;
+}
+
+.image-1 {
+    width: 500px;
+    height: 300px;
+}
+
+.image-1:hover {
+   width: 500px;
+   height: 300px;
+    content: url("https://nguyenvanhieu.vn/wp-content/uploads/2018/08/hoc-lap-trinh-web-thi-phai-bat-%C4%91au-tu-dau.jpg");
+}
+
+.image-1:active {
+    width: 500px;
+   height: 300px;
+    content: url("https://cafedev.vn/wp-content/uploads/2020/11/cafedev_web_dev.jpg");
+}
+
+
+
+div li:hover {
+    color: var(--text-color);
+    text-decoration: solid;
+}
+
+.HTML:hover {
+    color: red;
+    text-decoration: solid;
+}
+
+.Ruby:hover {
+    color: yellow;
+    text-decoration: solid;
+}
