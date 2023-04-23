@@ -1,0 +1,9 @@
+1 : Css pseudo-element
+::before: tạo ra phần tử đứng ở đầu
+::after: tạo ra phần tử đứng ở cuối
+::first-letter: css cho chữ cái đầu tiên
+::first-line: css cho dòng đầu tiên
+::selection: bôi chuột vào phần tử đã selection
+2 : Position 
+- Fixed
+- Sticky
