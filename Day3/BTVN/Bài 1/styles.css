@@ -1,0 +1,167 @@
+
+.box-title {
+    width: 1280px;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 5px solid gray;
+}
+
+.box {
+    width: 25%;
+    
+}
+
+.box-1 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid gray;
+}
+.box-1-1 {
+    width: 85%;
+    height: 70%;
+    
+}
+
+.box-1-2 {
+    width: 85%;
+    font-size: 1rem;
+}
+
+.box-2 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.box-2-1 {
+    width: 85%;
+    height: 70%;
+    
+}
+
+.box-2-2 {
+    width: 85%;
+    
+    font-size: 1rem;
+}
+
+.box-title-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.35em;
+    margin: 55px 20px 20px 20px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.box-main {
+    width: 90%;
+    height: 70%;
+    
+}
+
+.box-main-1 {
+    width: 90%;
+}
+
+.box-main-2 {
+    width: 90%;
+}
+
+.box-title-2 {
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px 20px 20px;
+    
+}
+
+.box-3 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.box-3-1 {
+    width: 45%;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.box-3-2 {
+    font-size: 1rem;
+}
+
+.box-4 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px 5px 5px;
+    border-bottom: 1px solid gray;
+}
+
+.box-4-1 {
+    width: 45%;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.box-4-2 {
+    font-size: 1rem;
+}
+
+.box-5 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px 5px 5px;
+    border-bottom: 1px solid gray;
+}
+
+.box-5-1 {
+    width: 45%;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.box-5-2 {
+    font-size: 1rem;
+}
+
+.box-6 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px 5px 5px;
+}
+
+.box-6-1 {
+    width: 45%;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.box-7-2 {
+    font-size: 1rem;
+}
