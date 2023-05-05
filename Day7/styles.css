@@ -1,0 +1,141 @@
+.container__header {
+  width: 100%;
+  height: 136px;
+  background-image: linear-gradient(0, #fe6433, #f53e2d);
+  display: flex;
+  justify-content: center;
+}
+
+.container__header-content {
+  width: 1200px;
+  height: 100%;
+}
+
+.container__header-title {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title-left {
+  display: flex;
+  gap: 4px;
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 300;
+  align-items: center;
+}
+
+.title__connect {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.header__title-right {
+  gap: 20px;
+  color: var(--color-white);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.account__image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.account__image img {
+  width: 20px;
+  height: 20px;
+}
+
+.title__right-notification {
+  gap: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.title__right-notification::before {
+  content: '';
+  width: 61px;
+  height: 20px;
+  position: absolute;
+  bottom: -18px;
+  right: 0px;
+}
+
+.content__notification {
+  position: absolute;
+  width: 400px;
+  height: 437px;
+  background-color: var(--color-white);
+  right: 0;
+  top: 35px;
+  border-radius: 2px;
+  display: none;
+  animation: SlideShow linear 0.2s;
+  transform-origin: calc(100% - 32px) top;
+  color: black;
+}
+
+.content__notification h3 {
+  line-height: 40px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #999999;
+  font-weight: 400;
+}
+
+.title__right-notification:hover .content__notification {
+  display: block;
+}
+
+.content__notification::before {
+  content: '';
+  position: absolute;
+  border-width: 12px 15px;
+  border-style: solid;
+  border-color: transparent transparent var(--color-white) transparent;
+  position: absolute;
+  right: 10px;
+  top: -23px;
+}
+
+.title__right-support {
+  gap: 4px;
+}
+
+.title__right-account {
+  gap: 4px;
+}
+
+.item__notification {
+  padding: 12px;
+  gap: 12px;
+}
+
+.item__notification:hover {
+  background-color: #f1f1f1;
+}
+
+.item__image {
+  width: 48px;
+  height: auto;
+}
+
+.item__image img {
+  width: 48px;
+}
+
+.item__content-title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.item__content-desc {
+  color: #756f6e;
+}

@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --color-primary: #ee4d2d;
+  --color-white: #fff;
+  --color-black: #333;
+  --color-gold: #ffce3e;
+}
+
+.flex-item {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+@keyframes SlideShow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body {
+  background-color: black;
+}
