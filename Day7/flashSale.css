@@ -50,6 +50,7 @@
 
 .content__body-item {
   padding: 0 15px;
+  cursor: pointer;
 }
 
 .content__item-media {
