@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  width: 1200px;
+  height: 100%;
+}
+
+.container__header {
+  background-color: #fff;
+  height: 84px;
+  width: 100%;
+}
+
+.flex-items-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+}
+
+.flex-items-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-shoppe {
+  width: 130px;
+  height: 53px;
+}
+
+.logo {
+  gap: 10px;
+}
+
+.logo > h1 {
+  font-size: 24px;
+}
+
+.btn-support {
+  font-size: 14px;
+  color: #ee4d2d;
+}
+
+.container__body {
+  height: 600px;
+  background-color: rgb(238, 77, 45);
+}
+
+.body__content {
+  background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7qvcy-lfuqe4hftedq21);
+  background-repeat: no-repeat;
+  padding: 0 70px;
+}
+
+.body__content-right {
+  width: 400px;
+  height: 482px;
+  background-color: #fff;
+  border-radius: 4px;
+  float: right;
+  padding: 15px;
+}
+
+.login__with_qr {
+  padding: 0.6875rem 0.875rem;
+  color: #ffbf00;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border: 2px solid #ffbf00;
+  border-radius: 2px;
+}
+
+.header__content {
+  gap: 10px;
+}
+
+.header__content > .login {
+  flex-grow: 1;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  margin: 20px 0;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+.input input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input input:focus {
+  border: 1px solid #333;
+}
+
+.message__error {
+  font-size: 12px;
+  color: red;
+  margin-top: -19px;
+  display: none;
+}
