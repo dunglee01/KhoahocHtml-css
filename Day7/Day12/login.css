@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content-wrapper {
@@ -73,7 +74,7 @@
 .login__with_qr {
   padding: 0.6875rem 0.875rem;
   color: #ffbf00;
-  font-size: 1  rem;
+  font-size: 1 rem;
   font-weight: 700;
   border: 2px solid #ffbf00;
   border-radius: 2px;
@@ -136,7 +137,7 @@
   border-radius: 2px;
   background-color: #ee4d2d;
   color: #fff;
-  box-shadow: 0 1px 1px rgba(0,0,0,.09);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09);
   text-transform: uppercase;
   cursor: pointer;
   margin-bottom: 10px;
@@ -149,7 +150,7 @@
   justify-content: space-between;
   font-size: 12px;
   cursor: pointer;
-  color: #0055AA;
+  color: #0055aa;
   margin-bottom: 20px;
 }
 
@@ -186,7 +187,7 @@
 }
 
 .login-with-fbgg:hover {
-  background-color: rgba(0,0,0,.02);
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .fb {
@@ -218,7 +219,6 @@
 }
 
 .content__footer {
-  
   flex-direction: column;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .container__footer {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .header-content {
@@ -240,7 +240,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 5px;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .header-content h3 {
@@ -257,7 +257,7 @@
 }
 
 .header-content h3:hover {
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .header-image {
@@ -294,7 +294,7 @@
   padding: 4px;
   margin-right: 12px;
   background-color: #fff;
-  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
 }
 
@@ -310,7 +310,7 @@
   height: 22px;
   padding: 4px;
   background-color: #fff;
-  box-shadow: 0 1px 1px rgba(0,0,0,.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
 }
 
@@ -330,7 +330,7 @@
   flex-direction: row;
   gap: 5px;
   font-size: 14px;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .country {
@@ -350,13 +350,13 @@
   display: flex;
   flex-direction: row;
   font-size: 14px;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
   margin-bottom: 40px;
 }
 
 .rules div {
   padding: 0 25px;
-  border-right: 1px solid rgba(0,0,0,.54);
+  border-right: 1px solid rgba(0, 0, 0, 0.54);
   cursor: pointer;
 }
 
@@ -397,5 +397,5 @@
   font-size: 13px;
   margin: 0 0 40px 0;
   gap: 5px;
-  color: rgba(0,0,0,.54);
+  color: rgba(0, 0, 0, 0.54);
 }
