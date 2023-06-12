@@ -1,0 +1,66 @@
+.container__content {
+    display: flex;
+    justify-content: center;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+    width: 95%;
+}
+
+.desktop {
+    display: flex;
+}
+
+.tablet {
+    display: none;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.mobile {
+    display: none;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 64em) {
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 50em) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    .mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+}
