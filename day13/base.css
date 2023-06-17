@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-items-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-items-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
