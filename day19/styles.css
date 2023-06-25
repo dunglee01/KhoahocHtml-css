@@ -1,0 +1,61 @@
+.header {
+  background-color: #000;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .menu ul {
+  display: flex;
+  color: #fff;
+}
+
+.header .menu ul li {
+  line-height: 46px;
+  padding: 0 24px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header .menu ul li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.search {
+  padding: 9px 24px;
+}
+
+.search:hover {
+  background-color: #ccc;
+}
+
+.sub-more {
+  position: relative;
+}
+
+.sub-more:hover .content-submore {
+  display: block;
+}
+
+.content-submore {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  width: 170px;
+  display: none;
+}
+
+.content-submore ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-submore ul li {
+  color: #333;
+}
