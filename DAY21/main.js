@@ -79,7 +79,7 @@
 
 // Trong js có 2 kiểu dữ liệu 
 // 1. Kiểu dữ liệu tham chiếu  ( Phức tạp)
-// - Function
+// - Array
 // - Object 
 //2. Kiểu dữ liệu tham trị ( nguyên thuỷ)
 /*
