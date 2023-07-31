@@ -143,3 +143,24 @@ Slicing
 // fruits.splice(2, 1, 'dungle');
 
 // console.log(fruits);
+
+let arr = [[1, 2], [3, 4], [5, 6], [5, 6], [5, 6], [5, 6]]
+
+let results = []
+
+let arr1 = arr[0]
+let resultArr1 = arr1.join(',')
+console.log(resultArr1);
+
+let arr2 = arr[1]
+let resultArr2 = arr2.join(',')
+console.log(resultArr2);
+
+let arr3 = arr[2]
+let resultArr3 = arr3.join(',')
+console.log(resultArr3);
+
+
+results.push(...arr1, ...arr2, ...arr3)
+
+console.log(results);

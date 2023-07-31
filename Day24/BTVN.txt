@@ -1,0 +1,14 @@
+1 .Tao ra 1 contructor co ten la Dog 
+	- Bao gom (name , age , color)
+	- Có propertype 'bark'. là 1 hàm in ra tên name của chính nó + với chuỗi 'Go Go Go'
+2. Có chuỗi 'Học lập trình để đi làm'
+	- tìm vị trí của chữ 'trình'
+	- Viêt câu điều  kiện kiểm tra xem trong chuỗi trên tồn tại chuỗi 'làm' thì sẽ nối thêm chuỗi '2023'
+3. Viết 1 hàm kiểm tra xem 1 chuỗi có chứa dấu '@' hay không nếu có trả về true còn không có thì trả về false
+4. Viết 1 funtion tính bình phương của 1 số 
+5. Viết function tính thế kỷ của 1 năm. Biết thế kỷ thứ nhất tính từ năm 1 đến 100.
+6. Cho 1 chuỗi dài hơn 15 ký tự. Viết 1 function cắt chuỗi, lấy ra 10 ký tự đầu tiên và thêm vào dấu "..." ở cuối chuỗi.
+7. Viết 1 function có tác dụng biến 1 chuỗi thành chỉ viết hoa từ đầu tiên.
+8. Viết 1 function lấy ra 1 số nhỏ nhất trong 1 mảng các số.
+9. Tạo 1 mảng từ 1 -> 10
+10. Sử dụng vòng lặp for để xuất ra các số chẵn từ 2 đến 10.
