@@ -123,3 +123,62 @@ function sochan(arr30) {
     console.log(arr31);
 }
 sochan(arr30)
+
+// 11. viết 1 function khi truyền tên vào sẽ tính được tổng số chữ cái ghép lại với nhau ,ví dụ abc thì tổng sẽ là 3
+
+var arr111 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
+var text = ""
+var numb = Number
+arr111.forEach(function (value,index) {
+    text += value
+    numb = index + 1
+    console.log(text);
+    console.log(numb);
+}) 
+
+// 12. Viết 1 function tính cộng dồn số đến khi nào chỉ còn 1 chữ số ví dụ truyền vào 173 -> 11 -> 2.
+var numb1 = 5427923
+var numb2 = 0
+var numb3 = ''
+function layso(numb1) {
+    numb5 = numb1.toString()
+    numb4 = []
+    for (let i = 0; i < numb5.length; i++) {
+        numb4.push(numb5[i])  
+    }
+    console.log(numb4);
+    for (let i = 0; i < numb4.length; i++) {
+        numb2 += Number(numb4[i])
+    }
+   
+    if (numb2 >= 10) {
+        numb5 = numb2.toString()
+        newnumber = []
+        for (let i = 0; i < numb5.length; i++) {
+            newnumber.push(numb5[i])  
+        }
+        numb2 = 0
+        for (let i = 0; i < newnumber.length; i++) {
+            numb2 += Number(numb4[i])
+        }   
+    } else {
+        return numb2
+    }
+    
+}   
+layso(numb1)
+
+// 13. Viết 1 function khi truyền vào tên "Nguyen Van A" thi sẽ tính được vị trí của chữ cuối của họ, chữ cuối của đệm và chữ cuối của tên
+var stringa = 'Nguyen Van A'
+var stringb = stringa.split(' ')
+var stringc = []
+var result = []
+    for (let i = 0; i < stringb.length; i++) {
+        stringc.push(stringb[i][stringb[i].length-1])
+    }
+    for (let i = 0; i < stringc.length; i++) {
+        result.push(stringa.indexOf(stringc[i]))
+        console.log(result);
+    }
+    
+    // nếu có phần tử trùng nhau thì sẽ lấy ra lastindexof rồi cộng với độ dài của chuỗi đã lấy ra phần tử đó với 1

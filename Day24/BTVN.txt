@@ -12,3 +12,10 @@
 8. Viết 1 function lấy ra 1 số nhỏ nhất trong 1 mảng các số.
 9. Tạo 1 mảng từ 1 -> 10
 10. Sử dụng vòng lặp for để xuất ra các số chẵn từ 2 đến 10.
+
+
+-Tạo 1 mảng chứa các chữ cái từ a -> z  
+ ví dụ a tương ứng với số 0 , b tương ứng với số 1 , ...
+11. viết 1 function khi truyền tên vào sẽ tính được tổng số chữ cái ghép lại với nhau ,ví dụ abc thì tổng sẽ là 3.
+12. Viết 1 function tính cộng dồn số đến khi nào chỉ còn 1 chữ số ví dụ truyền vào 173 -> 11 -> 2.
+13. Viết 1 function khi truyền vào tên "Nguyen Van A" thi sẽ tính được vị trí của chữ cuối của họ chữ cuối của đệm và chữ cuối của tên
