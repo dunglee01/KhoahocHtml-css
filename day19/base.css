@@ -16,7 +16,7 @@ ul li {
 }
 
 .grid.wide {
-  max-width: 1200px;
+  max-width: 776px;
   margin: 0 auto;
 }
 
@@ -151,7 +151,7 @@ ul li {
 }
 
 /* >= Tablet */
-@media (min-width: 740px) {
+@media (min-width: 480px) {
   .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -446,7 +446,7 @@ ul li {
 }
 
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1239px) {
+/* @media (min-width: 1024px) and (max-width: 1239px) {
   .wide {
     width: 984px;
   }
@@ -599,7 +599,23 @@ ul li {
   .wide .l-o-11 {
     margin-left: 91.66667%;
   }
-}
+} */
 
 @media (min-width: 1240px) and (max-width: 1300px) {
+}
+
+.flex-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-items-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-items-col {
+  display: flex;
+  flex-direction: column;
 }
