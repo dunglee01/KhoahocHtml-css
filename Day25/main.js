@@ -96,11 +96,11 @@ console.log(results);
 
 //reduce
 
-var arrNew = [1,2,3,4]
+var arrNew = [1, 2, 3, 4]
 
 console.log(arrNew.reduce(function (a, b) {
 
-console.log(arrNew[0]);
+  console.log(arrNew[0]);
 
   return a = b
 
@@ -122,3 +122,25 @@ console.log(arrNew[0]);
 //   console.log('none')
 
 // }
+
+
+//chua bai tap ve nha
+
+function sum(number) {
+
+  var convertData = number.toString().split('')
+  var currentValue = 0
+
+  for (var i = 0; i < convertData.length; i++) {
+    currentValue += Number(convertData[i])
+  }
+
+  if (currentValue < 10) {
+    return currentValue
+  } else {
+    return sum(currentValue)
+  }
+
+}
+
+console.log(sum(5427923))
