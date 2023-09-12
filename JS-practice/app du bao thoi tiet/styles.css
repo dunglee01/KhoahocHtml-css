@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Saint_Petersburg_Moyka_River_IMG_6916_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-content {
+    width: 330px;
+    height: 450px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efecec;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+#hot {
+    background-image: url(../hot1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hot-content {
+    background-image: url(../hot2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#autumn {
+    background-image: url(../autum1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#autumn-content {
+    background-image: url(../autum2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#winter {
+    background-image: url(../winter1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#winter-content {
+    background-image: url(../winter2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-content {
+    height: 15%;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.search {
+    width: 250px;
+    height: 20px;
+    padding-left: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 35px;
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #c0b5f1;
+    opacity: 70%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.details-information {
+    width: 250px;
+}
+
+.details-information .status {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 40px 20px;
+    color: #e21f39;
+}
+
+.details-information .more-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(225, 255, 0);
+}
+
+.details-information .more-status span {
+    font-size: 15px;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+}
+
+.show {
+    display: block;
+}
+
+.visibility,
+.wind,
+.humidity div {
+    font-size: 12px;
+}
+
+.hide {
+    display: none;
+}
+
+.item-result {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #fff;
+  }
+
+.item-result:hover {
+    color: #fff;
+    background-color: #959393;
+    cursor: pointer;
+}
+

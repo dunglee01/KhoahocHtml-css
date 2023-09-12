@@ -7,7 +7,7 @@ addTask.addEventListener('change', function (e) {
     addTask.value = ''
     duplicateTask(tasks)
     renderTask(tasks)
-    checkLinethrough(tasks)
+    // checkLinethrough(tasks)
 })
 
 function duplicateTask(tasks = []) {
@@ -44,10 +44,10 @@ function completeTask(selectedValue) {
     }
 }
 
-function checkLinethrough(tasks) {
-    var selectedLine = document.querySelectorAll('.line-through')
+// function checkLinethrough(tasks) {
+//     var selectedLine = document.querySelectorAll('.line-through')
     
-}
+// }
 
 function renderTask(tasks = []) {
     var content = '<ul>'
