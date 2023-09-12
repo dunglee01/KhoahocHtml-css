@@ -126,18 +126,26 @@ sochan(arr30)
 
 // 11. viết 1 function khi truyền tên vào sẽ tính được tổng số chữ cái ghép lại với nhau ,ví dụ abc thì tổng sẽ là 3
 
-var arr111 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
-var text = ""
-var numb = Number
-arr111.forEach(function (value,index) {
-    text += value
-    numb = index + 1
-    console.log(text);
-    console.log(numb);
-}) 
+var arr111 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+var nameinput = 'huy'
+function tinhtong(nameinput) {
+    var Dataexchange = nameinput.split('')
+    var Tongchu = []
+    var result = 0
+    console.log(Dataexchange);
+    for (let i = 0; i < Dataexchange.length; i++) {
+        Tongchu.push(arr111.indexOf(Dataexchange[i]));
+    }
+    
+    for (let i = 0; i < Tongchu.length; i++) {
+        result += Number(Tongchu[i])
+    }
+    return result;
+}
+ tinhtong(nameinput)    
 
 // 12. Viết 1 function tính cộng dồn số đến khi nào chỉ còn 1 chữ số ví dụ truyền vào 173 -> 11 -> 2.
-var numb1 = 5427923
+var numb1 = 173
 var numb2 = 0
 var numb3 = ''
 function layso(numb1) {
@@ -164,21 +172,25 @@ function layso(numb1) {
     } else {
         return numb2
     }
-    
+    console.log(numb2);
 }   
 layso(numb1)
 
 // 13. Viết 1 function khi truyền vào tên "Nguyen Van A" thi sẽ tính được vị trí của chữ cuối của họ, chữ cuối của đệm và chữ cuối của tên
-var stringa = 'Nguyen Van A'
-var stringb = stringa.split(' ')
-var stringc = []
-var result = []
-    for (let i = 0; i < stringb.length; i++) {
-        stringc.push(stringb[i][stringb[i].length-1])
+var name1 = 'Le Quy Huy'
+
+function tinhvitri(name1) {
+    var Dataexchange = name1.toLowerCase().split(' ')
+    var vitri = []
+    var result = []
+    for (let i = 0; i < Dataexchange.length; i++) {
+        vitri.push(Dataexchange[i][Dataexchange[i].length-1])
     }
-    for (let i = 0; i < stringc.length; i++) {
-        result.push(stringa.indexOf(stringc[i]))
-        console.log(result);
+
+    for (let i = 0; i < vitri.length; i++) {
+        result.push(arr111.indexOf(vitri[i]))
     }
-    
-    // nếu có phần tử trùng nhau thì sẽ lấy ra lastindexof rồi cộng với độ dài của chuỗi đã lấy ra phần tử đó với 1
+    return result;
+}
+
+tinhvitri(name1)
