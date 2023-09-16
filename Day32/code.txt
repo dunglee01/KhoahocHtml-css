@@ -1,0 +1,94 @@
+import Blog from "@/components/Blog";
+import Header from "@/components/Header";
+import { useCallback, useEffect, useMemo, useState } from "react";
+
+
+//Khi hoàn thành công việc rồi thì vẫn có thể add lại công việc đấy được
+//Khi hoàn thành công việc thì k thể xoá công việc đó khỏi list task
+
+export default function Home() {
+
+  const [tasks, setTasks] = useState([])
+  const [valueTask, setValueTask] = useState('')
+  const [isDuplicate, setIsDuplicate] = useState(false)
+
+  const handleChangeInputTask = (value) => {
+    setValueTask(value.target.value)
+  }
+
+  const handleClickAdd = () => {
+    const value = {
+      id: Math.random(1000000000),
+      name: valueTask,
+      status: false
+    }
+
+    if (!valueTask) {
+      return
+    }
+
+    setValueTask('')
+    setTasks((prev) => ([
+      ...prev,
+      value
+    ]))
+
+  }
+
+  const handleChangeStatus = (id) => {
+    setTasks(tasks.map((item) => {
+      if (item.id === id) {
+        return {
+          ...item,
+          status: !item.status
+        }
+      }
+
+      return item
+    }))
+
+  }
+
+  const handleDelete = (id) => {
+    setTasks(tasks.filter((item) => item.id !== id))
+  }
+
+  useEffect(() => {
+    if (tasks.length) {
+      tasks.map((item) => {
+        if (item.name.trim() === valueTask.trim()) {
+          setIsDuplicate(true)
+        } else {
+          setIsDuplicate(false)
+        }
+      })
+    } else {
+      setIsDuplicate(false)
+    }
+
+  }, [tasks, valueTask])
+
+  return (
+    <div >
+      <h1>TODO LIST</h1>
+      <input placeholder="Enter your task" onChange={handleChangeInputTask} value={valueTask} />
+
+      <button onClick={handleClickAdd} disabled={isDuplicate}>Add</button>
+
+      <div className="container">
+        {tasks.length ?
+          <>
+            {tasks.map((item) => {
+              return <li className="item">
+                <input type="checkbox" checked={item.status} onChange={() => handleChangeStatus(item.id)} />
+                <div className={`${item.status ? 'linethrough' : ''}`}>- {item.name}</div>
+                <div onClick={() => handleDelete(item.id)}>X</div>
+              </li>
+
+            })}
+          </> :
+          <div className="clear">Task đang trống</div>}
+      </div>
+    </div>
+  )
+}
